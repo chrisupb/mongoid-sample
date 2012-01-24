@@ -1,13 +1,13 @@
 == Getting Started
 Note: You should install mongodb database, before using this application.
 
-1. Clone the application:
+1. Clone the application
 2. bundle install
 3. rails s
 
 
 == Model
-An Artist embeds one instrument. There is an ArtistRepresenter and InstrumentRepresenter. We use 'roar'-rails GEM.
+An Artist embeds one instrument. There is an ArtistRepresenter and InstrumentRepresenter. We use 'roar-rails' GEM.
 
 == Reproduce error
 Accept application/json
