@@ -1,4 +1,8 @@
 MongoIdSample::Application.routes.draw do
+
+  resources :artists do
+    resource :instrument,
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

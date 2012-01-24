@@ -11,7 +11,7 @@ gem 'rails', '3.1.1'
 gem "mongoid"
 gem "bson_ext", "~> 1.4"
 gem "mongoid_dynamic_finder"
-
+gem 'roar-rails'
 # Use unicorn as the web server
 # gem 'unicorn'
 
