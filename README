@@ -2,17 +2,12 @@
 Note: You should install mongodb database, before using this application.
 
 1. Clone the application:
-       * git clone https://github.com/mitijain123/mongoid-sample.git
-
 2. bundle install
-
 3. rails s
-
-4. Application is up and running at http://localhost:3000
 
 
 == Model
-An Artist embeds one instrument. There is an ArtistRepresenter and InstrumentRepresenter.
+An Artist embeds one instrument. There is an ArtistRepresenter and InstrumentRepresenter. We use 'roar'-rails GEM.
 
 == Reproduce error
 
