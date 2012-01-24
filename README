@@ -10,6 +10,7 @@ Note: You should install mongodb database, before using this application.
 An Artist embeds one instrument. There is an ArtistRepresenter and InstrumentRepresenter. We use 'roar'-rails GEM.
 
 == Reproduce error
+Accept application/json
 
 1. POST http://127.0.0.1:3000/artists in order to create an artist.
 2. GET http://127.0.0.1:3000/artists/:id  => undefined method `representable_attrs' for Artists::Instrument:Class
