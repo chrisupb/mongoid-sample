@@ -13,6 +13,6 @@ An Artist embeds one instrument. There is an ArtistRepresenter and InstrumentRep
 Accept application/json
 
 1. POST http://127.0.0.1:3000/artists in order to create an artist.
-2. GET http://127.0.0.1:3000/artists/:id  => undefined method `representable_attrs' for Artists::Instrument:Class
+2. GET http://127.0.0.1:3000/artists/:id  => undefined local variable or method `artists_url' for #<Artists::Instrument:0x00000001c16000>
 
-or GET http://127.0.0.1:3000/artists/:id/instrument undefined method `representable_attrs' for Artists::Instrument:Class
+URL helpers for the _embedded_ class 'instrument' are not available.
