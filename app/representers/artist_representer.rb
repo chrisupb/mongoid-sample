@@ -1,9 +1,11 @@
 module ArtistRepresenter
   include Roar::Representer::JSON
+  include Roar::Representer::Feature::Hypermedia
 
   property :name
-  # Error: undefined method `representable_attrs' for Artists::Instrument:Class
-  # Uncomment => no error 
   property :instrument, :class => Artists::Instrument, :extend => InstrumentRepresenter
 
+  link :self do  
+    artist_url id
+  end
 end
